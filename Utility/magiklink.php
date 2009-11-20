@@ -1,4 +1,13 @@
 <?
+/**
+ * MagikLink
+ * 
+ * @author Casey Pugh
+ * @about Convert any plaintext link into an anchored link.
+ * @example
+ * 	vimeo.com 			 -> <a href="http://vimeo.com" target="_blank" rel="nofollow">vimeo.com</a>
+ * 	http://www.vimeo.com -> <a href="http://www.vimeo.com" target="_blank" rel="nofollow">vimeo.com</a>
+ */
 class Utility 
 {	
 	public static function convertToLink($text, $args = false)
